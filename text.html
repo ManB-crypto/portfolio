@@ -1,21 +1,44 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head>
+<title>W3.CSS Template</title>
 
-<h2>JavaScript For Loop</h2>
+<link rel="stylesheet" href="css/index.css">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+<style>
 
-<p id="demo"></p>
+</style>
+</head>
+<body  class="background">
 
-<script>
-const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+<!-- Background & animion & navbar & title -->
+<div class="container-fluid">
+  <!-- Background animtion-->
+      <div class="background">
+         <div class="cube"></div>
+         <div class="cube"></div>
+         <div class="cube"></div>
+         <div class="cube"></div>
+        <div class="cube"></div>
+      
+  <!-- header -->
+     <header>
+      <nav>
+        <ul>
+           <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+         </ul>
+       </nav>
+  <!-- title & content -->
+        <section class="header-content">
+           <h1>Hello!</h1>
+           <h2>I'm Aiman</h2>
+          <p> Nice to meet you<br>
 
-let text = "";
-for (let i = 0; i < cars.length; i++) {
-  text += cars[i] + "<br>";
-}
+          <a href = "index.html" ><button style="color: #CC7859">Learn More</button></a>
 
-document.getElementById("demo").innerHTML = text;
-</script>
-
-</body>
-</html>
+        </section>
+    </header></body >
