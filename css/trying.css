@@ -1,8 +1,4 @@
-body {
-  background: #323641;
-  display: flex;
-  justify-content: center;
-}
+
 .letter-image {
   position: absolute;
   top: 50%;

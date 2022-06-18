@@ -22,6 +22,12 @@ body {
   margin:0px;
 }
 
+.fonts{
+  color:white;
+}
+a{
+  position:center;
+}
 
 .cube {
   position: absolute;
@@ -62,6 +68,14 @@ body {
   left: 50vw;
   top: 10vh;
 }
+.wel{
+    position: absolute;
+    bottom:25%;
+    left: 0%;
+    width:100%;
+    margin: 0;
+    padding: 0; 
+}
 /* ================= Header ============ */
 header{
   position: absolute;
@@ -92,7 +106,7 @@ nav ul li a{
   margin-left:16px;
 }
 nav ul li:hover a{
-    background-color: #3e8e41;
+    
     color: white;
     padding-top: 30px;
     margin-top: -30px;
@@ -118,7 +132,7 @@ nav ul li:hover a{
 .header-content button{
   width: 140px;
   margin:20px 10px;
-  color: #591BC5;
+  color: #CC7859;
   font-size: 17px;
   border:1px solid #EFEEF5;
   font-weight: 500;
@@ -130,7 +144,16 @@ nav ul li:hover a{
 }
 .header-content button:hover{
   border-radius: 0;
+  color: white;
+  background-color: #CC7859;
 }
+
+
+
+
+
+
+
 /* Animate Background*/
 @keyframes Gradient {
   0% {
